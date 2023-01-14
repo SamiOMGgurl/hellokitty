@@ -1,0 +1,49 @@
+body
+{
+  background-color : lightsteelblue;
+  text-align : center;
+}
+p2
+{
+  color : black;
+}
+#camera
+{
+  border : 3px steelblue dashed;
+  width : 500px;
+  height : 500px;
+}
+#result
+{
+  border : 3px steelblue dashed;
+  height : 500px;
+  width : 500px;
+}
+#capture_button
+{
+  background-color : steelblue;
+  color : white;
+  height : 50px;
+  width : 200px;
+  font-size : medium;
+  cursor : pointer;
+}
+#identify_button
+{
+  background-color : steelblue;
+  color : white;
+  height : 50px;
+  width : 200px;
+  font-size : medium;
+  cursor : pointer;
+}
+#result_object_name
+{
+  color : steelblue;
+  font-family: Raleway, sans-serif;
+}
+#result_object_accuracy
+{
+  color : steelblue;
+  font-family: Raleway, sans-serif;
+}

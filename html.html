@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title> Family Image Recognition Project </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel = "stylesheet" href = "style.css" ></script>
+
+  </head>
+  
+  <body>
+    
+    <u>
+  <h1> Family Members Image Recognition </h1>
+    </u>
+    
+    <p1> This website is trained to identify the following objects: </p1>
+      <br> <br>
+    <p2>
+      <b> Mother </b> <br> <br>
+      <b> Father </b> <br> <br>
+      
+    </p2>  
+ <br> 
+    <hr>
+    
+    <center>
+      
+    <p> <b> Your Webcam:  </b></p>
+    
+      <div id = "camera"> </div>
+      <br>
+       <br>
+      <button id = "capture_button" onclick = "take_snapshot()"> Capture Image </button>
+      <hr>
+    <p> <b> Image Captured:  </b></p>
+      <div id = "result"> </div>
+      <br> 
+      <button id = "identify_button" onclick="check()"> Identify Image </button>
+      <br> <br> <br>
+      <b>
+      <p> Object: <span id="result_object_name"> </span> </p>
+      <p> Accuracy: <span id="result_object_accuracy"> </span> </p>
+      </b>
+      <br>   `.
+    </center>
+
+    <script src = "js.js"> </script>
+    
+  </body>
+</html>
